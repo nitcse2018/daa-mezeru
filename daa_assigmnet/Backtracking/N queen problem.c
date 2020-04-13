@@ -1,15 +1,8 @@
 
-
 int N;
-
-
 int board[100][100];
-
-
 int is_attack(int i,int j)
-{
-    int k,l;
-
+{int k,l;
     for(k=0;k<N;k++)
     {
         if((board[i][k] == 1) || (board[k][j] == 1))
