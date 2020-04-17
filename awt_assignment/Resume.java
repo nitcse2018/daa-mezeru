@@ -141,14 +141,14 @@ public class Resume {
    {
        Resume R_ = new Resume(); 
    }
-   public static String inputFile(String RT, String temp, String adder){
-	   if(adder == " ") {
-		   adder=" "+adder;
-	       return (RT+adder+temp);
+   public static String inputFile(String RT, String temp, String txt){
+	   if(txt == " ") {
+		   txt=" "+txt;
+	       return (RT+txt+temp);
 	   }
 	   else {
-       adder="\n"+adder;
-       return (RT+adder+temp);
+       txt="\n"+txt;
+       return (RT+txt+temp);
 	   }
    }
 }
